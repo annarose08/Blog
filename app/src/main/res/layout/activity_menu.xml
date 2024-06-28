@@ -1,0 +1,45 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Post"
+        android:background="#BAE2E6"
+        android:layout_margin="20px"
+        android:id="@+id/add"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Post"
+        android:background="#BAE2E6"
+        android:layout_margin="20px"
+        android:id="@+id/search"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Post"
+        android:background="#BAE2E6"
+        android:layout_margin="20px"
+        android:id="@+id/view"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Post"
+        android:background="#BAE2E6"
+        android:layout_margin="20px"
+        android:id="@+id/dlt"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:background="#D77798"
+        android:layout_margin="20px"
+        android:id="@+id/sout" />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50px"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textColor="#0F1414"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:id="@+id/uname"
+        android:drawableLeft="@drawable/baseline_create_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Id"
+        android:textColor="#0F1414"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email Id"
+        android:id="@+id/email"
+        android:drawableLeft="@drawable/baseline_email_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Password."
+        android:textColor="#0F1414"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password."
+        android:inputType="textPassword"
+        android:id="@+id/passw"
+        android:drawableLeft="@drawable/baseline_lock_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Confirm Password."
+        android:textColor="#0F1414"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password."
+        android:inputType="textPassword"
+        android:id="@+id/passwd"
+        android:drawableLeft="@drawable/baseline_lock_24"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="#BAE2E6"
+        android:layout_margin="20px"
+        android:id="@+id/signupbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signout"
+        android:background="#D77798"
+        android:layout_margin="20px"
+        android:id="@+id/signoutoutbtn"/>
+
+</LinearLayout>
